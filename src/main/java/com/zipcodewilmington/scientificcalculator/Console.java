@@ -40,6 +40,10 @@ public class Console {
         println(prompt);
         String input = scanner.nextLine();
 
+        if ("C".equalsIgnoreCase(input)) {
+            return null; // Return null to indicate clearing the display
+        }
+
         try {
             return Double.parseDouble(input);
         } catch (NumberFormatException e) {
@@ -47,4 +51,5 @@ public class Console {
             return getDoubleInput(prompt);
         }
     }
+
 }

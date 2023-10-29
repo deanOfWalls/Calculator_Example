@@ -4,5 +4,6 @@ public enum MathOperationType {
     ADDITION,
     SUBTRACTION,
     MULTIPLICATION,
-    DIVISION
+    DIVISION,
+    CLEAR
 }
