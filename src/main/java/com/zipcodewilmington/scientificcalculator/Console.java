@@ -3,7 +3,7 @@ package com.zipcodewilmington.scientificcalculator;
 import java.util.Scanner;
 
 /**
- * Created by leon on 2/9/18.
+ * Created by leon on 2/9/18. (sounds like a claim)
  */
 public class Console {
 
