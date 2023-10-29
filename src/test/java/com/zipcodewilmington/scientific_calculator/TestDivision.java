@@ -1,19 +1,21 @@
 package com.zipcodewilmington.scientific_calculator;
 
 import com.zipcodewilmington.scientificcalculator.operations.Addition;
+import com.zipcodewilmington.scientificcalculator.operations.Division;
+import com.zipcodewilmington.scientificcalculator.operations.Subtraction;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestAddition {
+public class TestDivision {
     @Test
-    public void testAddition(){
+    public void testDivision(){
         //Given: Create an instance of the Addition class
-        Addition addition = new Addition();
+        Division division = new Division();
 
         //When: Perform the calculation
-        double operand1 = 6;
-        double operand2 = 4;
-        double result = addition.calculate(operand1, operand2);
+        double operand1 = 100;
+        double operand2 = 10;
+        double result = division.calculate(operand1, operand2);
 
         //Then: Check if the result is as expected
         double expected = 10;
