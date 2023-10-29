@@ -16,6 +16,8 @@ public class MainApplication {
         operationMap.put(MathOperationType.MULTIPLICATION, new Multiplication());
         operationMap.put(MathOperationType.DIVISION, new Division());
         operationMap.put(MathOperationType.SQUARE_ROOT, new SquareRoot());
+        operationMap.put(MathOperationType.SQUARE, new Square());
+        operationMap.put(MathOperationType.EXPONENTIATION,new Exponentiation());
         operationMap.put(MathOperationType.CLEAR, new ClearDisplay());
     }
 

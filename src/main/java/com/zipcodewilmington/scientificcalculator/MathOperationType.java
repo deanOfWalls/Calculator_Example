@@ -6,6 +6,8 @@ public enum MathOperationType {
     MULTIPLICATION(2),
     DIVISION(2),
     SQUARE_ROOT(1),
+    SQUARE(1),
+    EXPONENTIATION(2),
     CLEAR(0);
 
     private final int numOperands;
