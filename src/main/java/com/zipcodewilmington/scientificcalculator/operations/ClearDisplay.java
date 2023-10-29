@@ -7,7 +7,7 @@ public class ClearDisplay implements MathOperation {
 
     // Implement the 'calculate' method as required by the 'MathOperation' interface.
     @Override
-    public double calculate(double operand1, double operand2) {
+    public double calculate(double... operands) {
         // Perform the clear display operation.
         // This operation is not intended to perform any mathematical calculation.
         // It's used to indicate that the display should be cleared.
